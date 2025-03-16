@@ -20,7 +20,7 @@ def main():
     print(f"Analyzing book found at {book_path}...")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
-    print("# --------- Character Count -------")
+    print("--------- Character Count -------")
     for entry in sorted_dictionary:
         key = entry["char"]
         value = entry["num"]
