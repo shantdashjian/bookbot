@@ -11,3 +11,11 @@ def get_char_dictionary(text):
         else:
             dict[char] = 1
     return dict
+
+def sort_char_dictionary(dict):
+    keys = list(dict.keys())
+    keys.sort(key=lambda item: dict[item], reverse=True)
+    sorted_dict = {}
+    for key in keys:
+        sorted_dict[key] = dict[key]
+    return sorted_dict
