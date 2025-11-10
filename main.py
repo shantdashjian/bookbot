@@ -25,5 +25,6 @@ def main():
         num = char_num["num"]
         if char.isalpha():
             print(f"{char}: {num}")
+    print("============= END ===============")
 
 main()
